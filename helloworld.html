@@ -4,7 +4,9 @@
     
     <link rel="stylesheet"href="styles.css"/>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="https://.static.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://.static.com/firebasejs/8.0.0/firebase-storage.js"></script>
   
     <title>Hello World</title>
 </head>
@@ -141,7 +143,7 @@
     </h2>
     <div class="upload-container">
         <input type="file" id="imageUpload()"accept="image/*"multiple/>
-        <button onClick="uploadImage()">Upload Images</button>
+        <button class="upload-button"onClick="uploadImage()">Upload Images</button>
     </div>
     <div id="imagePlayArea">
         <p>
@@ -154,5 +156,6 @@
     <footer>
         <p>Contact Us, We are developers</p>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
